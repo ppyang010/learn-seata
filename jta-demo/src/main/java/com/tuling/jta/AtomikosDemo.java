@@ -62,8 +62,7 @@ public class AtomikosDemo {
             userId = generatedKeys.getInt(1);
          }
  
-         // 模拟异常 ，直接进入catch代码块，2个都不会提交
-        //int i=1/0;
+
  
          // 执行db2上的sql
          conn2 = ds2.getConnection();
@@ -71,7 +70,10 @@ public class AtomikosDemo {
          ps2.setInt(1, userId);
          ps2.setDouble(2, 10000000);
          ps2.executeUpdate();
- 
+
+         // 模拟异常 ，直接进入catch代码块，2个都不会提交
+//         int i=1/0;
+
          // 两阶段提交
          userTransaction.commit();
       } catch (Exception e) {

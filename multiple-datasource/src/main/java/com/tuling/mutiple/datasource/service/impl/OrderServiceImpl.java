@@ -36,8 +36,8 @@ public class OrderServiceImpl implements OrderService {
     private StorageService storageService;
     
     @Override
-    @Transactional
-    //@GlobalTransactional(name="createOrder")
+//    @Transactional
+    @GlobalTransactional(name="createOrder")
     public Order saveOrder(OrderVo orderVo){
         log.info("=============用户下单=================");
         //切换数据源

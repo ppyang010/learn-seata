@@ -8,10 +8,10 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-#    alibaba:
-#      seata:
-#        tx-service-group:
-#          my_test_tx_group # seata 服务事务分组
+    alibaba:
+      seata:
+        tx-service-group:
+          my_test_tx_group # seata 服务事务分组
 
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
@@ -76,13 +76,16 @@ feign:
   sentinel:
     enabled: true
 
-
-seata:
-  application-id: ${spring.application.name}
-  tx-service-group: my_test_tx_group
+#
+#seata:
+#  application-id: ${spring.application.name}
+##   这个前缀的配置在spring cloud 不生效
+#  tx-service-group: my_test_tx_group
+##   使用nacos 后需要配置到nacos上
 #  service:
 #    vgroup-mapping:
 #      my_test_tx_group: default
+##  只有注册方式使用 file 模式的时候才有效
 #    grouplist:
 #      default: 192.168.190.220:8091
 

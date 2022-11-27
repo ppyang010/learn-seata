@@ -66,3 +66,4 @@ hs_err_pid*
 out
 gen
 /jta-demo/target/classes/
+/multiple-datasource/target/classes/

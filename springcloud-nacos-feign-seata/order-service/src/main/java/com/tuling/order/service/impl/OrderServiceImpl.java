@@ -33,7 +33,7 @@ public class OrderServiceImpl implements OrderService {
     private StorageFeignService storageFeignService;
     
     @Override
-    //@Transactional
+//    @Transactional
     @GlobalTransactional(name="createOrder")
     public Order saveOrder(OrderVo orderVo) {
         log.info("=============用户下单=================");

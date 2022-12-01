@@ -32,7 +32,7 @@
         <!--<spring-cloud-alibaba.version>2.2.5.RELEASE</spring-cloud-alibaba.version>-->
         <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
         <spring-cloud-alibaba.version>2.1.1.RELEASE</spring-cloud-alibaba.version>
-        <seata.version>1.4.0</seata.version>
+        <seata.version>1.4.2</seata.version>
     </properties>
 
     <dependencies>

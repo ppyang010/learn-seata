@@ -1,9 +1,0 @@
-com\tuling\datasource\config\MybatisConfig.class
-com\tuling\datasource\mapper\StorageMapper.class
-com\tuling\datasource\entity\Account.class
-com\tuling\datasource\mapper\OrderMapper.class
-com\tuling\datasource\vo\ResultVo.class
-com\tuling\datasource\entity\Storage.class
-com\tuling\datasource\mapper\AccountMapper.class
-com\tuling\datasource\entity\Order.class
-com\tuling\datasource\entity\OrderStatus.class

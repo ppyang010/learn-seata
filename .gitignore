@@ -68,3 +68,4 @@ gen
 /jta-demo/target/classes/
 /multiple-datasource/target/classes/
 springcloud-nacos-feign-seata/mysql-common/target
+/springcloud-nacos-feign-seata/mysql-common/target

@@ -41,15 +41,15 @@ public class MybatisConfig {
      * @param druidDataSource
      * @return
      */
-    @Primary
-    @Bean("dataSource")
-    public DataSourceProxy dataSourceProxy(DataSource druidDataSource) {
-        return new DataSourceProxy(druidDataSource);
-    }
-    
+//    @Primary
+//    @Bean("dataSource")
+//    public DataSourceProxy dataSourceProxy(DataSource druidDataSource) {
+//        return new DataSourceProxy(druidDataSource);
+//    }
+//
     
     @Bean(name = "sqlSessionFactory")
-    public SqlSessionFactory sqlSessionFactoryBean(DataSourceProxy dataSourceProxy) throws Exception {
+    public SqlSessionFactory sqlSessionFactoryBean(DataSource dataSourceProxy) throws Exception {
         SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
         //设置代理数据源
         factoryBean.setDataSource(dataSourceProxy);

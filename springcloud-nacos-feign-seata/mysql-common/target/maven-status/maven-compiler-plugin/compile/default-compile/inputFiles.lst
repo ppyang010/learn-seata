@@ -1,8 +1,9 @@
-F:\Resource\seata\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\entity\OrderStatus.java
-F:\Resource\seata\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\entity\Account.java
-F:\Resource\seata\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\mapper\OrderMapper.java
-F:\Resource\seata\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\mapper\StorageMapper.java
-F:\Resource\seata\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\entity\Order.java
-F:\Resource\seata\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\entity\Storage.java
-F:\Resource\seata\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\mapper\AccountMapper.java
-F:\Resource\seata\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\vo\ResultVo.java
+D:\work\code\study_code\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\config\MybatisConfig.java
+D:\work\code\study_code\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\mapper\StorageMapper.java
+D:\work\code\study_code\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\mapper\AccountMapper.java
+D:\work\code\study_code\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\entity\Order.java
+D:\work\code\study_code\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\entity\OrderStatus.java
+D:\work\code\study_code\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\entity\Storage.java
+D:\work\code\study_code\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\entity\Account.java
+D:\work\code\study_code\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\mapper\OrderMapper.java
+D:\work\code\study_code\learn-seata\springcloud-nacos-feign-seata\mysql-common\src\main\java\com\tuling\datasource\vo\ResultVo.java

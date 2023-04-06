@@ -1,10 +1,7 @@
 package com.tuling.datasource.mapper;
 
 import com.tuling.datasource.entity.Storage;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -30,5 +27,7 @@ public interface StorageMapper {
      */
     @Update("UPDATE storage_tbl SET count = count - #{count} WHERE commodity_code = #{commodityCode}")
     int reduceStorage(@Param("commodityCode") String commodityCode,@Param("count") Integer count);
-    
+
+    @Insert( "insert into storage_tbl (commodity_code,count) values (#{commodityCode},#{count})")
+    void insertOne(@Param("commodityCode") String commodityCode,@Param("count") Integer count);
 }

@@ -5,6 +5,7 @@ import com.tuling.datasource.mapper.StorageMapper;
 import com.tuling.storage.service.StorageService;
 import io.seata.core.context.RootContext;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang.RandomStringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -29,6 +30,8 @@ public class StorageServiceImpl implements StorageService {
         
         log.info("开始扣减 {} 库存", commodityCode);
         Integer record = storageMapper.reduceStorage(commodityCode,count);
+        //之前用来看锁的情况了
+//        storageMapper.insertOne("bestGoods002",1);
         log.info("扣减 {} 库存结果:{}", commodityCode, record > 0 ? "操作成功" : "扣减库存失败");
     }
     

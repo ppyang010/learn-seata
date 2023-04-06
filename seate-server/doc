@@ -20,3 +20,12 @@ sh seata-server.sh
 需要在bin 目录下执行 sh seata-server.sh命令
 因为spring的loader.path写成了../lib所以如果在外层文件夹执行命令 会加载不到相关的依赖
 https://github.com/seata/seata/issues/4803
+
+
+---
+2023年4月7日
+启动步骤
+1. nacos
+bash bin/startup.sh -m standalone
+2 seata-server
+需要在bin 目录下执行 sh seata-server.sh命令

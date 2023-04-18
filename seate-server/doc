@@ -26,6 +26,15 @@ https://github.com/seata/seata/issues/4803
 2023年4月7日
 启动步骤
 1. nacos
+cd /home/ccy/00myapp/nacos-server-2.1.2
 bash bin/startup.sh -m standalone
+
 2 seata-server
 需要在bin 目录下执行 sh seata-server.sh命令
+cd /home/ccy/00myapp/seata-server-1.5.2/bin
+bash seata-server.sh
+
+
+
+
+
